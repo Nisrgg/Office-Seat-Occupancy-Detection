@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ## 🤗 Usage
 
 ```bash
-python seatDetect.py \
+python seatDetect.py
 ```
 
 ## 🚀 Sample Output
