@@ -4,9 +4,9 @@ import time
 import signal
 import sys
 
-# Load YOLOv5s model for a balance of speed and accuracy
+# Load YOLOv5x model for a balance of speed and accuracy
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = torch.hub.load('ultralytics/yolov5', 'yolov5m').to(device)
+model = torch.hub.load('ultralytics/yolov5', 'yolov5x').to(device)
 
 # Set confidence threshold and allowed classes
 model.conf = 0.5  # Confidence threshold
