@@ -15,8 +15,6 @@ With using  YOLOv5 on video cameras detecting the occupancy time (with belonging
 
 <img src="doc/project-description.png" alt="image" width="500"/>
 
-Detailed explanation about the project is in this document:
-[Document](https://docs.google.com/document/d/1pJ2VXuCuY54If5JJqTePYmlqCHkCWHwM6suYYAaN2k4/edit?usp=sharing)
 
 # 🛠️ System Architecture
 
