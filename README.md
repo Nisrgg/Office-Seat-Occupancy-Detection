@@ -40,6 +40,8 @@ Output file will be displayed in the .mp4 format (with lower fps)
 For demonstration purposes in pdf document, it is included as image - 
 
 <img align="left" src="doc/output.png" width="500" />
+<img align="left" src="doc/output2.png" width="500" />
+<img align="left" src="doc/output3.png" width="500" />
 <br clear="left"/>
 
 
