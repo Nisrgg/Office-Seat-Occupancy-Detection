@@ -1,0 +1,51 @@
+# Office Seat Occupancy Detection - Configuration File
+# Data Science Project Configuration
+
+# Model Configuration
+model:
+  name: "yolov5m"
+  confidence_threshold: 0.5
+  iou_threshold: 0.45
+  device: "auto"  # auto, cpu, cuda
+  input_size: [640, 640]
+
+# Detection Configuration
+detection:
+  classes: ["person", "chair"]
+  min_chair_area: 0.01  # Minimum chair area as fraction of frame
+  max_chair_area: 0.1   # Maximum chair area as fraction of frame
+  overlap_threshold: 0.3  # IoU threshold for person-chair overlap
+
+# Data Processing
+data:
+  input_video_path: "data/videos/"
+  output_path: "output/"
+  processed_data_path: "data/processed/"
+  results_path: "results/"
+  
+# Analysis Configuration
+analysis:
+  time_window_minutes: 5  # Time window for occupancy analysis
+  occupancy_threshold_seconds: 30  # Minimum time to consider occupied
+  generate_reports: true
+  export_formats: ["csv", "json", "excel"]
+
+# Visualization
+visualization:
+  save_frames: true
+  frame_interval: 30  # Save every Nth frame
+  plot_style: "seaborn"
+  figure_size: [12, 8]
+  dpi: 300
+
+# Logging
+logging:
+  level: "INFO"
+  log_file: "logs/seat_detection.log"
+  console_output: true
+
+# Performance Monitoring
+monitoring:
+  track_fps: true
+  memory_monitoring: true
+  gpu_monitoring: true
