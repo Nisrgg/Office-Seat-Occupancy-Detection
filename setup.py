@@ -5,7 +5,7 @@ Office Seat Occupancy Detection System
 A comprehensive data science project for detecting and analyzing office seat occupancy
 using computer vision and machine learning techniques.
 
-Author: BTech CSE Final Year Student
+Author: Academic Project
 Date: 2024
 """
 

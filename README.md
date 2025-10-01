@@ -26,7 +26,7 @@
 
 ## 🌟 Overview
 
-**SmartSeatGuard** is a comprehensive data science project that uses computer vision and machine learning to detect and analyze office seat occupancy patterns. Built as a BTech CSE final year project, it demonstrates advanced techniques in:
+**SmartSeatGuard** is a comprehensive data science project that uses computer vision and machine learning to detect and analyze office seat occupancy patterns. It demonstrates advanced techniques in:
 
 - **Computer Vision**: YOLOv5-based object detection
 - **Data Analysis**: Statistical analysis and pattern recognition
@@ -108,7 +108,7 @@
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/Office-Seat-Occupancy-Detection.git
+git clone https://github.com/username/Office-Seat-Occupancy-Detection.git
 cd Office-Seat-Occupancy-Detection
 ```
 
@@ -456,13 +456,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For questions, issues, or contributions:
 
-- 📧 Email: your.email@university.edu
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/Office-Seat-Occupancy-Detection/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/Office-Seat-Occupancy-Detection/discussions)
+- 📧 Email: contact@example.com
+- 🐛 Issues: [GitHub Issues](https://github.com/username/Office-Seat-Occupancy-Detection/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/username/Office-Seat-Occupancy-Detection/discussions)
 
 ---
 
 <div align="center">
-  <p><strong>Built with ❤️ for BTech CSE Final Year Project</strong></p>
+  <p><strong>Built with ❤️ for Academic Project</strong></p>
   <p>© 2024 Office Seat Occupancy Detection System</p>
 </div>
